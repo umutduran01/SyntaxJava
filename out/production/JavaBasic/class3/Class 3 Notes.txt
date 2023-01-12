@@ -1,0 +1,3 @@
+Bir değerin değerini değiştirirken Refactor kullanarak aynı değerin tüm dosyadaki adıları değiştirilebilir.
+even number - çift sayı
+odd number - tek sayı

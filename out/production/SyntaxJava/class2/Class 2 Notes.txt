@@ -1,0 +1,39 @@
+--- Tamsayıları atamak için 4 farklı değişken vardır.
+
+int = tamsayı
+
+1- byte - en küçük
+2- short
+3- int - en yaygın
+4- long - eğer int'i aşan bir sayı varsa sayının sonuna "l" ya da "L" yazılır.
+
+--- Class isimlendirmeleri yapılırken ilk harfler büyük yapılır.
+Bir değişkene isim verirken ilk hece hariç diğerler büyük yazılır.
+
+myBox, firstClass
+
+--- Ondalıklı sayıları için 2 tane değişken var;
+
+1) float - 6 haneye kadar ondalık tutar
+2) double - 15 haneye kadar ondalıklı sayı tutar
+
+float olanlarda ondalıklı yazılıyorsa sonuna f yazılır.
+
+float x = 5.7f;
+
+--- Harf ve yazılar için 2 tane değişken vardır;
+
+1) char - tek harf, sayı ya da sembol tutar
+2) String - yazı tutar
+
+--- Primitive data türleri küçük harfle başlar, non-primitive data türleri büyük harfle başlar.
+
+--- Doğru ya da yanlış ifadeleri saklamak için;
+
+1) boolean
+
+kullanılır. Yalnızca true ya da false ifadelerini alır.
+
+--- İki farklı değişken aynı adı alamaz.
+
+--- String'te sadece iki String birleştirmek için + işaret kullanılabilir.

@@ -1,0 +1,8 @@
+Class adları boşluk içeremez ya da bir sayı ile başlayamaz.
+Java kodları sadece class dosyalarına yazılır.
+
+Types of brackets:
+ ( )  parentheses or "round brackets"
+ [ ]  "square brackets" or "box brackets"
+ { }  braces or "curly brackets"
+ < >  "angle brackets"
