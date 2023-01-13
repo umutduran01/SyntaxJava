@@ -1,6 +1,4 @@
-package class5.JavaClass5Homework;
-
-import JavaPractice.Sout;
+package class5.Class5Homework;
 
 import java.util.Scanner;
 
