@@ -54,7 +54,7 @@ public class Recap4 {
         System.out.println("Please enter array length");
         int arrayLength2 = input.nextInt();
 
-        int[] year = new int[arrayLength2]; //We asked for array length with a scannar.
+        int[] year = new int[arrayLength2]; //We asked for array length with a scanner.
 
         for (int index = 0; index < year.length; index++) {
             System.out.println("Please enter index " + index + " for this array.");
