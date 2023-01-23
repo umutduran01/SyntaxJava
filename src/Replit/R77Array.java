@@ -7,37 +7,30 @@ public class R77Array {
 
 /*
 
-Create an int array of integers with a size of 5 and input values with Scanner.
+Create an array of integers that will store 5 elements taken from a user
 
-Don't print prompt questions for a user.
+Don't print any prompt message for the user
 
-Using loop print out each element of the array that should look like the output below
+Then print out all the elements you have created in the first loop in reverse order.
 
 **Example:**
 
+```
 Input:
 
 1
-
 2
-
 3
-
 4
-
 5
 
 Output:
 
-10
-
-20
-
-30
-
-40
-
-50
+5
+4
+3
+2
+1
 
 
  */
@@ -50,11 +43,9 @@ Output:
             arr[i] = input.nextInt();
         }
 
-        for (int a = 0; a < 5; a++) {
-            System.out.println(arr[a]*10);
-
+        for (int a = 4; a >= 0; a--) {
+            System.out.println(arr[a]);
         }
-
 
     }
 }
