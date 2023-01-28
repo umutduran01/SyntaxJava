@@ -8,7 +8,7 @@ public class City {
     int population;
 
     void travel(){
-        System.out.println("It is a good destionation.");
+        System.out.println("It is a good destination.");
     }
 
     void live(){

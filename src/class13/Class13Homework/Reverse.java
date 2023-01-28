@@ -11,10 +11,10 @@ public class Reverse {
 
         String str = "This is sentence i want to reverse";
 
-        String [] strArr = str.split(" ");
+        String[] strArr = str.split(" ");
 
         for (int i = 0; i < strArr.length; i++) {
-            for (int j = strArr[i].length()-1; j >= 0; j--) {
+            for (int j = strArr[i].length() - 1; j >= 0; j--) {
                 System.out.print(strArr[i].charAt(j));
             }
             System.out.print(" ");
