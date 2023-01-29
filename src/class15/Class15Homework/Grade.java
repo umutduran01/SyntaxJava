@@ -32,10 +32,10 @@ public class Grade {
 
             Scanner input = new Scanner(System.in);
             System.out.print("Please enter your score: ");
-            int score = input.nextInt();
+            int scoreIs = input.nextInt();
 
             Grade newGrade = new Grade();
-            char result = newGrade.gradeIs(score);
+            char result = newGrade.gradeIs(scoreIs);
             System.out.println(result);
 
         }

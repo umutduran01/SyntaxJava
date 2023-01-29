@@ -6,8 +6,8 @@ public class PrimeNumber {
 
         boolean prime = true;
 
-        for (int i = 2; i <= num; i++) {
-            if (num % 2 == 0) {
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
                 prime = false;
                 break;
             }
@@ -25,6 +25,6 @@ public class PrimeNumber {
         //Write a method to return whether given number is prime or not?
 
         PrimeNumber number = new PrimeNumber();
-        System.out.println(number.isPrime(5));
+        System.out.println(number.isPrime(11));
     }
 }
