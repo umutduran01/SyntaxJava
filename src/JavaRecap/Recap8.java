@@ -11,7 +11,7 @@ public class Recap8 {
     }
 
     int price(int age, int speed) {
-        return age*speed;
+        return age * speed;
     }
 
 

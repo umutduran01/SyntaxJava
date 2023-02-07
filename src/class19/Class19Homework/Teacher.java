@@ -21,6 +21,7 @@ public class Teacher {
 
     void id(int teacherId) {
         this.teacherId = teacherId;
+        System.out.println(teacherId);
     }
 
     String teacherInfo(String name, int teacherId, int year) {
@@ -35,24 +36,41 @@ public class Teacher {
 class MathTeacher extends Teacher {
     int experience;
 
-    void MathExperience(){
+    void MathExperience() {
         System.out.println(experience);
     }
 }
 
-class ChemistryTeacher extends Teacher{
+class ChemistryTeacher extends Teacher {
 
     boolean married = false;
 
-    void marriedStatus(){
+    void marriedStatus() {
         System.out.println(married);
     }
 }
 
-class PianoTeacher extends Teacher{
+class PianoTeacher extends Teacher {
 
     double pianoTeacherMoney;
-    void money(){
+
+    void money() {
         System.out.println(pianoTeacherMoney);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+
+        Teacher newTeacher = new Teacher();
+        newTeacher.teacherYear(15);
+
+        MathTeacher newTeacher2 = new MathTeacher();
+        newTeacher2.experience = 10;
+        newTeacher2.MathExperience();
+
+        PianoTeacher newTeacher3 = new PianoTeacher();
+        String result = newTeacher3.teacherInfo("George", 123456, 20); //PianoTeacher class calls parent class method. Eğer method private olsaydı bu class içerisinde ulaşamaazdır.
+        System.out.println(result);
     }
 }
