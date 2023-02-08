@@ -15,7 +15,6 @@ public class BuilderVsString {
         for (int i = 0; i < 1000; i++) { //Bu sefer değerimizi StringBuilder olarak oluşturduk. Bu daha fazla yer kaplayacaktır ama daha hızlı olacak. Her seferinde hafızayı okumaz.
             str2.append(i);
         }
-
         //Stringler neden değiştirilemez interview konusu
 
     }

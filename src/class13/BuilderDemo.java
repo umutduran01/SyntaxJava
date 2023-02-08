@@ -8,7 +8,7 @@ public class BuilderDemo {
 
         /*
 
-        String oluşturulduğunda ilk önce hafızadaki stringleri kontrol eder ve eğer aynı string varsa ona eşitler. Yana;
+        String oluşturulduğunda ilk önce hafızadaki stringleri kontrol eder ve eğer aynı string varsa ona eşitler. Yani;
 
         String a = "Hello";
         String b = "Hello";
