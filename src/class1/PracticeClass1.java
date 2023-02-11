@@ -10,7 +10,7 @@ public class PracticeClass1 {
 
         /*
         This is a multi line comment.
-         */
+        */
 
     }
 }

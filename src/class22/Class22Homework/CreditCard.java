@@ -25,7 +25,7 @@ class AX extends CreditCard {
     }
 }
 
-class CreditCardTesting{
+class CreditCardTesting {
     public static void main(String[] args) {
 
         CreditCard newCD = new CreditCard();
