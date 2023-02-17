@@ -18,15 +18,20 @@ class Car implements MovAble, OwnAble { //Birden fazla inheritence yapamamıza r
     }
 
     @Override
-    public void own(){
-        System.out.println("You can own it.");
+    public void own() {
+        System.out.println("You can own the car.");
     }
 }
 
-class Dog implements MovAble {
+class Dog implements MovAble, OwnAble {
 
     @Override
     public void move() {
         System.out.println("Dog is moving.");
+    }
+
+    @Override
+    public void own() {
+        System.out.println("You can own the dog.");
     }
 }
