@@ -3,7 +3,7 @@ package class9;
 public class ArrayDemo6 {
     public static void main(String[] args) {
 
-        //Create an array yo store the letters A B c d e F
+        //Create an array to store the letters A B c d e F
 
         int [] numbers = new int[5]; //5 büyüklüğünde boş bir dizi.
         System.out.println(numbers[2]); //Dizi boş olduğu için bunun çıktısı 0 olacaktır.
