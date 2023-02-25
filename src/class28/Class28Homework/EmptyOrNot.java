@@ -21,9 +21,12 @@ public class EmptyOrNot {
 
         System.out.println(newTest.isEmpty()); //If the ArrayList is empty ?
 
+        System.out.println(newTest.contains("Isabel")); //Returns true
+
         System.out.println(newTest.size()); //Size of the ArrayList.
 
         System.out.println(newTest); //All elements from the ArrayList.
+
 
     }
 }
