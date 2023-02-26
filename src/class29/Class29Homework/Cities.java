@@ -16,10 +16,14 @@ public class Cities {
         cities.add("Amsterdam");
         cities.add("Paris");
 
+        System.out.println(cities);
+
         cities.removeIf(city -> city.startsWith("A"));
 
         System.out.println(cities);
 
+        cities.removeIf(city -> city.startsWith("L") || city.endsWith("n"));
 
+        System.out.println(cities);
     }
 }
